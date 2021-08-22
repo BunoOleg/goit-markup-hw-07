@@ -512,26 +512,25 @@ img {
   margin-right: 0;
 }
 
-.icon-footer {
-  fill: #ffffff;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-link {
+.social-item__footer-link {
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.social-item__footer-link:hover, .social-item__footer-link:focus {
   background-color: #2196f3;
 }
 
-.footer-link:hover .icon-footer,
-.footer-link:focus .icon-footer {
+.social-item__footer-link:hover .icon-footer,
+.social-item__footer-link:focus .icon-footer {
   fill: #ffffff;
+}
+
+.icon-footer {
+  fill: #ffffff;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe {

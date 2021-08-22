@@ -9,9 +9,10 @@
   line-height: 1.19;
   color: $white-color;
   text-decoration: none;
-}
-.logo-footer > span {
-  color: $accent-color;
+
+  & > span {
+    color: $accent-color;
+  }
 }
 .address {
   font-style: normal;
