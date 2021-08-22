@@ -4,37 +4,38 @@
 
 .preference {
   display: flex;
-}
-.preference__item {
-  width: 270px;
-  margin-right: 30px;
-}
-.preference__item:nth-child(4n) {
-  margin-right: 0;
-}
 
-.preference__title {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: $secondary-text-color;
-}
-.preference__text {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-  line-height: 1.71;
-}
+  &__item {
+    width: 270px;
+    margin-right: 30px;
+  }
+  &__item:nth-child(4n) {
+    margin-right: 0;
+  }
 
-.preference__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: $secondary-color-bg;
-  border-radius: 4px;
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+  }
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-color-bg;
+    border-radius: 4px;
+  }
 }
