@@ -19,7 +19,7 @@
   &__link:focus {
     color: $accent-color;
   }
-  &__item + &_item {
+  &__item + &__item {
     margin-left: 50px;
   }
   &__link:hover &__icon,

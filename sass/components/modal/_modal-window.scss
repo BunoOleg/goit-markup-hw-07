@@ -46,7 +46,7 @@
 }
 .icon-close {
   fill: $black-color;
-  fill: $transition;
+  transition: $transition;
 }
 .close-button:hover .icon-close {
   fill: $accent-color;

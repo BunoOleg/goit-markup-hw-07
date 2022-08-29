@@ -90,8 +90,8 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  -webkit-transition: color 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav__link:focus, .site-nav__link:hover {
@@ -144,7 +144,7 @@ img {
   color: #2196f3;
 }
 
-.nav-contacts__item + .nav-contacts_item {
+.nav-contacts__item + .nav-contacts__item {
   margin-left: 50px;
 }
 
@@ -937,7 +937,8 @@ img {
 
 .icon-close {
   fill: #000000;
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover .icon-close {
